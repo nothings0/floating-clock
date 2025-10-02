@@ -1,0 +1,53 @@
+v1.45.2    2025-05-23  dev-processname
+  fix crash sdk 28
+
+v1.45.1    2025-05-23  dev-edgetoedge
+  update targetSdk 35
+
+v1.44.0    2025-03-04  dev-navigation
+  fix navigation back stack
+  auto start setting
+
+v1.43.1    2025-02-22  dev-deeplink
+  feature: launch timer by link
+
+v1.43.0    2025-02-22  dev-deeplink
+  feature: launch timer by link
+
+v1.42.0    2025-01-26  dev-hours
+  feature support hours
+
+v1.41.1    2025-01-20  dev-translate-vietnamese
+  vietnamese translation
+  getRingtoneList withContext(IO)
+
+v1.41.0    2025-01-16  dev-translate-german
+  german translation
+  Ringtone.getRingtone withContext(IO)
+
+v1.40.3    2025-01-04  dev-translate-korea
+  korean translation
+
+v1.40.2    XXXX-XX-XX  dev-translate-jp
+  japanese translation
+
+v1.40.1    2024-12-22  dev-anr
+  see if calling bound service on IO dispatcher results in less ANRs
+
+v1.40.0    2024-12-17  dev-review
+  class FtWindowManager
+  settings links section
+
+v1.39.0    2024-11-30  dev-looping
+  add settings screen
+  add option to stop alarm from repeating
+  refactoring singletons with dependency on Context
+
+v1.38.0    2024-11-19  dev-settings
+  update dependencies
+  billing client v7
+
+v1.37.0    2024-09-16  dev-trash-refactor
+--------------------
+- refactor trash overlay so not using fullscreen transparent view
+    this caused bug that user could not interact with screen if view not removed because of some bug
